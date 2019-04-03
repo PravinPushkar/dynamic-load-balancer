@@ -15,6 +15,7 @@ const routing = [
 	}
 ];
 const proxy = httpProxy.createProxyServer({});
+
 http.createServer((req, res) => {
 	let route;
 	routing.some(entry => {

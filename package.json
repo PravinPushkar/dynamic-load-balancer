@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-load-balancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PravinPushkar/dynamic-load-balancer.git"
+  },
+  "author": "pravin7007@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PravinPushkar/dynamic-load-balancer/issues"
+  },
+  "homepage": "https://github.com/PravinPushkar/dynamic-load-balancer#readme",
+  "dependencies": {
+    "consul": "^0.34.1",
+    "http-proxy": "^1.17.0",
+    "portfinder": "^1.0.20"
+  }
+}
